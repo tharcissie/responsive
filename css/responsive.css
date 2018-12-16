@@ -1,0 +1,151 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+header h1{
+    margin: 0;
+    color: goldenrod;
+    font-size: 2.5em;
+}
+ul,ol
+{
+list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    text-align: center;
+   background:skyblue;
+    padding: 2em 0;
+}
+nav li{
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+nav li a{
+    display: block;
+    margin-right:10px;
+    color: #fff;
+    padding: 10px ,15px;
+}
+section{
+    text-align: center;
+}
+section p{
+    text-justify: auto;
+}
+
+footer{
+    padding: 2em 0;
+    background:skyblue;
+    text-align: center;
+   }
+
+.p1{
+    text-align: left;
+}
+.sub-section{
+    padding: 15px;
+}
+.container-contact-form
+{
+   text-align: center;
+   color:white;
+margin-left: 500px;
+   background:rgb(135 206 250);
+   width: 300px;
+   margin-bottom: 2%;
+   
+   
+}
+
+.container-contact-form input{
+    width: 250px;
+    padding: 10px 0;
+    font-size: 16px;
+    color:black;
+    margin-bottom:30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+    
+
+
+}
+.container-contact-form label{
+    
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color:black;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.container-contact-form input[type="submit"]
+{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: blue;
+    background:white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/*here is css of sevices.html*/
+.services{
+  text-align:center; 
+  margin-bottom: 1%;
+  font-family: 'Times New Roman', Times, serif}
+  
+  
+
+/*MEDIA QUERIES*/
+@media(min-width:760px){
+.container{
+    max-width: 1000;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header h1,
+header nav li {
+    display: inline-block;
+}
+.sub-section{
+    float: left;
+    width: 30%
+}
+.clear-fix{
+   content:"" ;
+   display: table;
+   clear: both; 
+}
+.container-contact-form label,
+.container-contact-form{
+    display: block;
+    padding: 3%;
+    
+
+}
+.section1{
+    float: left;
+    width: 30%;
+    
+}
+.section2{
+    float: left;
+    width: 60%;
+    margin-left: 2%;
+    
+
+}
+
+
+}
+   
